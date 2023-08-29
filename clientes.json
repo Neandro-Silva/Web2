@@ -1,9 +1,34 @@
 {
     "Clientes":[
-        {"Nome":"Neandro"},
-        {"Nome":"João"},
-        {"Nome":"Maria"},
-        {"Nome":"Teresinha"},
-        {"Nome":"Creuza"}
+        {
+            "Nome":"Neandro",
+            "Email":"neandrosilva.11@gmail.com",
+            "Telefone": 74999999999,
+            "Endereço":"Campo Formoso"
+        },
+        {
+            "Nome":"João",
+            "Email":"joao@gmail.com",
+            "Telefone": "",
+            "Endereço":"Campo Formoso"
+        },
+        {
+            "Nome":"Maria",
+            "Email":"maria@gmail.com",
+            "Telefone": 7499997777,
+            "Endereço":"Senhor do Bonfim"
+        },
+        {
+            "Nome":"Teresinha",
+            "Email":"teresinha@gmail.com",
+            "Telefone": "",
+            "Endereço":"Campo Formoso"
+        },
+        {
+            "Nome":"Creuza",
+            "Email":"creuza@gmail.com",
+            "Telefone": 7499995555,
+            "Endereço":"Campo Formoso"
+        }
     ]
 }

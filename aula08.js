@@ -5,7 +5,10 @@ const clienteList = clientes.Clientes;
 function ListarClientes() {
     console.log('\n## Lista de clientes ##');
     clienteList.forEach(cliente => {
-        console.log(cliente.Nome);
+        for(let i = 0; i<1; i++) {
+            console.log(`${cliente.Nome}, ${cliente.Email}, ${cliente.Telefone}, ${cliente.Endereço}`);
+        }
+        
     });
 }
 
@@ -18,9 +21,19 @@ function pesquisarCliente(nome) {
     }
 }
 
+function filter() {
+    console.log('\n## Telefone não preenchidos ##')
+    const semTelefone = clienteList.filter(cliente => cliente.Telefone == "")
+    
+    console.log(semTelefone) 
+}
+
 ListarClientes();
 
-const prompt = require('prompt-sync')();
+filter();
+
+/*const prompt = require('prompt-sync')();
 const nomeCliente = prompt('Informe o nome do cliente: ')
 
-pesquisarCliente(nomeCliente)
+pesquisarCliente(nomeCliente)*/
+
